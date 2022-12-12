@@ -1,0 +1,27 @@
+
+#folders and files
+images/faces/**
+.env
+src/build_library.py
+
+new_sheet.xlsx
+new_document.docx
+
+#internal
+__pycache__/
+.ipynb_checkpoints/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
