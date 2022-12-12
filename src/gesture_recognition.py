@@ -424,6 +424,7 @@ while True:
 
                 text_to_say1 = "ProjectV is now terminated!"
                 text_to_say2 = "Goodbye Joana! Hope to see you soon"
+                engine = pyttsx3.init()
                 voices = engine.getProperty('voices')
                 engine.setProperty('voice', voices[voice_num].id)
                 engine.say(text_to_say1)

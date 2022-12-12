@@ -22,7 +22,7 @@ def openProgram ():
     os.system("conda activate face_recog && python src/program.py")
 
 def openREADME():
-    os.system("start https://github.com/joanarmaia/final/blob/main/README.md")
+    os.system("start https://github.com/joanarmaia/os-control-face-gesture-recognition/blob/main/README.md")
 
 # Buttons
 button1 = tk.Button(interface, text="START", bg=button_color, fg='#000000', relief="flat", cursor="hand2", command = openProgram,width=9, height=1, font=("Bahnschrift Light", 16))

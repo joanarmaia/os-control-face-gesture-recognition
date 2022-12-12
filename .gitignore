@@ -9,7 +9,8 @@ new_document.docx
 
 #internal
 __pycache__/
-.ipynb_checkpoints/
+.ipynb_checkpoints
+
 
 
 

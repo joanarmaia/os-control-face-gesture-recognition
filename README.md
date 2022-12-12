@@ -9,20 +9,7 @@ PROJECT'V' is an interface designed to make everyday life easier by opening the 
 
 <br/>
 
-## Functions <br/>
-
-- Face Recognition
-- Gesture Recognition
-    - Open Youtube
-    - Open GitHub
-    - Open new MS Word document
-    - Open LinkedIn
-    - Open new MS Excel Sheet
-    - Open Netflix
-    - Open Spotify
-    - Open Records (Sentiment Analysis plot of user's mood over time)
-    - Write (Log mood in SQL database - voice detection and recording)
-    - Stop the program
+## Gesture Dictinary <br/>
 
 ![hands](./images/aesthetic/handgestures.png)
 **Fig1.** Hand gestures recognized by PROJECT'V'
@@ -32,14 +19,14 @@ PROJECT'V' is an interface designed to make everyday life easier by opening the 
 <br/>
 
 ## Mood Analysis <br/>
-As mentioned above, the "Write" command activates a voice detection function and records the user's mood. Then, PROJECT'V' calculates the overall sentiment of the sentence through NLP, and asks the user to evaluate their mood on a scale from 0 to 10. After the user's input, the current date and time (Y-M-D h:min), user's sentence, mood scale and sentiment score are loaded automatically to SQL. 
-By doing the "Records" gesture, PROJECT'V' opens a plot with all the entries the user has registered where they can see the sentiment score and the sentence they recorded.
+As mentioned above, the "Write" command activates a voice detection function and records the user's mood. Then, PROJECT'V' calculates the overall sentiment of the sentence using NLP, and asks the user to evaluate their mood on a scale from 0 to 10. After the user's input, the current date and time (Y-M-D h:min), user's sentence, mood scale and sentiment score are loaded automatically to SQL. 
+By doing the "Records" gesture, PROJECT'V' opens a plot with all the entries the user has registered where they can see the sentiment score and the sentence they recorded. PROJECT'V' also tells the user the average of their mood (out of 10) for the current month and for all the entries they have logged on the database.
 
 ![plotgeneral](./images/plot/moodanalysis.png)
 **Fig2.** - Sentiment Analysis plot of user's mood over time (1 year)
 
 ![plotspec](./images/plot/moodanalysis2.png)
-**Fig2.** - Example of mood entry (29th November 2022)
+**Fig3.** - Example of dummy mood entry (29th November 2022)
 <br/>
 
 ## Practical Applications <br/>
@@ -51,3 +38,4 @@ By doing the "Records" gesture, PROJECT'V' opens a plot with all the entries the
 - Psychology/Psiquiatric patients
 - Work Tracker/Manager
 - Lab diary
+- ...
